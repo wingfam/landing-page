@@ -145,13 +145,14 @@ button {
   margin: 5% 13%;
   height: 12vh;
   border-radius: 8px;
+  gap: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .call-to-action-container .text-container {
-  width: 600px;
+  width: 500px;
 }
 
 .call-to-action-title {
@@ -163,6 +164,7 @@ button {
   margin: 0;
   font-weight: 300;
   color: #e5e7eb;
+  text-wrap: wrap;
 }
 
 .footer {
